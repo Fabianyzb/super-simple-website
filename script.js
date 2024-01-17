@@ -19,10 +19,10 @@ dateInput.addEventListener("change", () => {
     pElement.innerText = `You're ${years} years, ${months} months, ${days} days old!`;
 
     if (years >= 6) {
-      myImage.src = "/img/toradora.gif";
+      myImage.src = "img/toradora.gif";
       myImage.alt = "Image activated";
     } else {
-      myImage.src = "/img/question.png";
+      myImage.src = "img/question.png";
       myImage.alt = "Original image";
     }
 
@@ -32,7 +32,7 @@ dateInput.addEventListener("change", () => {
       birthDate.getUTCMonth() === currentDate.getUTCMonth();
 
     if (isBirthday) {
-      myImage.src = "/img/happybday.gif";
+      myImage.src = "img/happybday.gif";
     }
   } else {
     alert("Por favor, ingresa una fecha válida.");
