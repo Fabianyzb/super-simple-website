@@ -22,8 +22,8 @@ dateInput.addEventListener("change", () => {
       myImage.src = "img/toradora.gif";
       myImage.alt = "Image activated";
     } else {
-      myImage.src = "img/question.png";
-      myImage.alt = "Original image";
+      myImage.src = "/img/question.png";
+      myImage.alt = "Image activated";
     }
 
     // Verificar si es el cumpleaños
